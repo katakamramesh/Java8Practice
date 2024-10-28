@@ -12,7 +12,7 @@ public class FunctionalProgramming {
 
         ll.stream().map(m -> m *2).forEach(System.out :: println);//multiple of numbers
 
-        ll.stream().reduce(0, Integer::sum);//sum of numbers
+        Integer reduce = ll.stream().reduce(0, Integer::sum);//sum of numbers
 
         ll.stream().reduce(Integer.MIN_VALUE,(a,b) -> a>b? a:b);//give max value
 
