@@ -6,7 +6,7 @@ public class FunctionalProgramming {
     public static void main(String[] args) {
         List<Integer> ll = List.of(4,6,1,3,2,32);
 
-        List<String> l = List.of("afds","zxcdsghj","erert");
+        List<String> l = List.of("adds","zxcdsghj","rect");
 
         ll.stream().filter(n -> n/2 == 0).forEach(System.out :: print);//even number
 
